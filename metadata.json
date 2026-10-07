@@ -1,0 +1,6 @@
+{
+  "name": "Triiply",
+  "description": "Official Travel Partner Acquisition Landing Page & Agency Ecosystem Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
