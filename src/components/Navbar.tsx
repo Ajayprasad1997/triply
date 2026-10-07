@@ -63,6 +63,10 @@ export const Navbar: React.FC<NavbarProps> = () => {
             <Link to="/benefits" className="hover:text-blue-600 transition-colors font-bold text-slate-800">
               Agency Benefits
             </Link>
+            <Link to="/subscription" className="hover:text-blue-600 transition-colors font-bold text-slate-800">
+              Subscription
+            </Link>
+            
             <Link to="/about" className="hover:text-blue-600 transition-colors font-bold text-slate-800">
               Company Profile
             </Link>

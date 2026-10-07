@@ -68,3 +68,227 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+
+
+/* subscription css */
+
+.subscription-section {
+  padding: 100px 20px;
+  background: #f8fafc;
+}
+
+.subscription-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.subscription-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.subscription-label {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.subscription-header h2 {
+  font-size: 44px;
+  line-height: 1.15;
+  margin: 0 0 18px;
+}
+
+.subscription-header p {
+  color: #64748b;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.billing-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 50px;
+  background: #ffffff;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border-radius: 50px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.billing-toggle button {
+  border: 0;
+  background: transparent;
+  padding: 12px 22px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.billing-toggle button.active {
+  background: #111827;
+  color: #ffffff;
+}
+
+.save-badge {
+  margin-left: 8px;
+  font-size: 11px;
+  background: #dcfce7;
+  color: #166534;
+  padding: 4px 7px;
+  border-radius: 20px;
+}
+
+.subscription-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  align-items: stretch;
+}
+
+.subscription-card {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.subscription-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-card-popular {
+  border: 2px solid #111827;
+}
+
+.popular-badge {
+  background: #111827;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.subscription-card-content {
+  padding: 35px 30px;
+}
+
+.subscription-card h3 {
+  font-size: 25px;
+  margin: 0 0 12px;
+}
+
+.subscription-description {
+  color: #64748b;
+  line-height: 1.6;
+  min-height: 52px;
+}
+
+.subscription-price {
+  margin: 30px 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.currency {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 42px;
+  font-weight: 800;
+  margin-left: 5px;
+}
+
+.period {
+  color: #64748b;
+  margin-left: 5px;
+}
+
+.subscription-features {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.subscription-feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #374151;
+  font-size: 14px;
+}
+
+.feature-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.subscription-button {
+  width: 100%;
+  padding: 14px 20px;
+  border: 0;
+  border-radius: 10px;
+  background: #111827;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscription-button:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 900px) {
+  .subscription-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .subscription-header h2 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 500px) {
+  .subscription-section {
+    padding: 70px 15px;
+  }
+
+  .subscription-header h2 {
+    font-size: 30px;
+  }
+
+  .billing-toggle {
+    width: 100%;
+  }
+
+  .billing-toggle button {
+    flex: 1;
+  }
+}
+
+/* End subscription css */

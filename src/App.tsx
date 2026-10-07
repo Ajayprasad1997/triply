@@ -22,7 +22,10 @@ import { TravelPackage } from './types';
 import { ProtectedRoute } from './components/ProtectedRoute';
 
 import { syncInitialDataFromBackend } from './data/mockData';
-
+import SubscriptionPage from "./pages/SubscriptionPage";
+import CustomerLogin from "./pages/CustomerLogin";
+import CustomerSignup from "./pages/CustomerSignup";
+import SubscriptionCheckout from "./pages/SubscriptionCheckout";
 const AdminDashboard = lazy(() => import('./pages/AdminDashboard'));
 const Login = lazy(() => import('./pages/Login'));
 const ForgotPassword = lazy(() => import('./pages/ForgotPassword'));
@@ -90,6 +93,10 @@ function AppContent() {
       <Suspense fallback={<div role="status" className="grid min-h-[60vh] place-items-center text-sm font-semibold text-slate-600">Loading page…</div>}>
       <Routes>
         {/* Public Homepage Route */}
+        <Route path="/login" element={<CustomerLogin />}/>
+
+      <Route path="/subscription-checkout" element={<SubscriptionCheckout />}/>
+        <Route path="/signup" element={<CustomerSignup />}/>
         <Route path="/" element={
           <main>
             {/* Hero Section */}
@@ -136,10 +143,12 @@ function AppContent() {
 
             {/* Final High-Conversion Travel CTA */}
             <FinalCTA onOpenRegister={handleOpenRegister} />
+            
           </main>
         } />
 
         {/* Customer-Facing Holiday Packages & Booking Discovery Pages */}
+        <Route path="/subscription" element={<SubscriptionPage />}/>
         <Route path="/explore" element={<TravelDiscoveryPage />} />
         <Route path="/holiday-packages" element={<TravelDiscoveryPage />} />
         <Route path="/packages" element={<TravelDiscoveryPage />} />
