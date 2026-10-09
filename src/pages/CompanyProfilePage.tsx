@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+
 import {
   Buildings,
   ShieldCheck,
@@ -27,7 +28,7 @@ import {
 } from '@phosphor-icons/react';
 import { TriiplyLogo } from '../components/TriiplyLogo';
 import { InstagramVerifiedBadge } from '../components/InstagramVerifiedBadge';
-import { AgencyOnboardingForm } from '../components/AgencyOnboardingForm';
+
 
 export const CompanyProfilePage: React.FC = () => {
   const location = useLocation();
@@ -199,27 +200,43 @@ export const CompanyProfilePage: React.FC = () => {
               </span>
             </h1>
 
-            <p className="text-sm sm:text-lg text-slate-300 font-medium leading-relaxed max-w-3xl mx-auto">
-              Triiply Technologies is India's leading travel technology ecosystem, empowering premier Destination Management Companies (DMCs), travel agencies, and tour operators with verified digital storefronts, high-conversion holiday itineraries, and transparent customer trust.
+            <p className="atmb text-sm sm:text-lg text-slate-300 font-medium leading-relaxed max-w-3xl mx-auto">
+              TRIIPLY is a next-generation travel technology platform connecting travelers with travel agencies, service providers and experiences through one integrated digital ecosystem.
+            </p>
+            <p className="atmb text-sm sm:text-lg text-slate-300 font-medium leading-relaxed max-w-3xl mx-auto">
+             Our mission is to make travel planning simpler, smarter and more transparent by helping users Search, Compare and Travel with confidence.
+            </p>
+            <p className="atmb text-sm sm:text-lg text-slate-300 font-medium leading-relaxed max-w-3xl mx-auto">
+             TRIIPLY enables travelers to discover destinations, explore travel packages, compare options, discover trusted travel partners and share their experiences with future travelers.
+            </p>
+            <p className="atmb text-sm sm:text-lg text-slate-300 font-medium leading-relaxed max-w-3xl mx-auto">
+            For travel businesses, TRIIPLY provides a digital platform to showcase their services, reach new customers and build their online presence
+            </p>
+            <p className="atmb text-sm sm:text-lg text-slate-300 font-medium leading-relaxed max-w-3xl mx-auto">
+            We believe that every journey creates an experience worth sharing. By connecting travelers and travel businesses, TRIIPLY aims to build a trusted and vibrant travel community.
             </p>
 
             {/* Quick Metrics Bar */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 max-w-3xl mx-auto">
+            <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 pt-6 max-w-3xl mx-auto">
               <div className="p-3.5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-center">
-                <span className="text-xl sm:text-2xl font-black text-white block">75+</span>
-                <span className="text-[11px] text-slate-400 font-semibold uppercase tracking-wide">Global Leisure Hotspots</span>
+                <span className="text-xl sm:text-2xl font-black text-white block">15k+</span>
+                <span className="text-[11px] text-slate-400 font-semibold uppercase tracking-wide">Triiply Search</span>
               </div>
               <div className="p-3.5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-center">
-                <span className="text-xl sm:text-2xl font-black text-emerald-400 block">0%</span>
-                <span className="text-[11px] text-slate-400 font-semibold uppercase tracking-wide">Platform Lead Fee</span>
+                <span className="text-xl sm:text-2xl font-black text-emerald-400 block">100%</span>
+                <span className="text-[11px] text-slate-400 font-semibold uppercase tracking-wide">Compare</span>
               </div>
               <div className="p-3.5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-center">
-                <span className="text-xl sm:text-2xl font-black text-sky-300 block">100%</span>
-                <span className="text-[11px] text-slate-400 font-semibold uppercase tracking-wide">License Verified DMCs</span>
+                <span className="text-xl sm:text-2xl font-black text-sky-300 block">24/7</span>
+                <span className="text-[11px] text-slate-400 font-semibold uppercase tracking-wide">Travel</span>
               </div>
               <div className="p-3.5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-center">
-                <span className="text-xl sm:text-2xl font-black text-white block">24/7</span>
-                <span className="text-[11px] text-slate-400 font-semibold uppercase tracking-wide">Emergency Desk</span>
+                <span className="text-xl sm:text-2xl font-black text-white block">365d</span>
+                <span className="text-[11px] text-slate-400 font-semibold uppercase tracking-wide">Your Journey</span>
+              </div>
+              <div className="p-3.5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-center">
+                <span className="text-xl sm:text-2xl font-black text-white block">Global</span>
+                <span className="text-[11px] text-slate-400 font-semibold uppercase tracking-wide">Our Network</span>
               </div>
             </div>
 
@@ -318,7 +335,7 @@ export const CompanyProfilePage: React.FC = () => {
 
               <div className="space-y-3">
                 <Link
-                  to="/contact#agency-onboarding"
+                  to="/benefits#agency-onboarding"
                   className="w-full py-3.5 px-6 rounded-2xl bg-gradient-to-r from-blue-600 to-sky-600 hover:from-blue-700 hover:to-sky-700 text-white font-extrabold text-xs shadow-lg shadow-sky-500/25 flex items-center justify-center gap-2 transition-all cursor-pointer"
                 >
                   <ShieldCheck size={18} weight="fill" className="text-emerald-300" />
@@ -390,10 +407,14 @@ export const CompanyProfilePage: React.FC = () => {
             })}
           </div>
         </section>
-
-        {/* ── 5. OFFICIAL INQUIRY & CONTACT FORM ── */}
-        <AgencyOnboardingForm />
-
+         
+        <div className="w-full h-full overflow-hidden">
+  <img
+    src="/subscription_im.jpeg"
+    alt="Subscription"
+    className="w-full object-cover rounded-xl"
+  />
+</div>
         <section className="bg-white rounded-3xl p-6 sm:p-10 border border-slate-200/90 shadow-sm">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
             
@@ -546,7 +567,7 @@ export const CompanyProfilePage: React.FC = () => {
           </div>
         </section>
 
-          ```tsx
+          
 {/* ── 2. REGISTERED CORPORATE OFFICES & REGIONAL HUBS ── */}
 <section className="space-y-6">
   {/* Section Header */}

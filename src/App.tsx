@@ -66,7 +66,7 @@ function AppContent() {
   }, []);
 
   const handleOpenRegister = () => {
-    navigate('/contact#agency-onboarding');
+    navigate('/benefits#agency-onboarding');
   };
 
   // Determine if we are inside a portal page (admin or agency dashboard)

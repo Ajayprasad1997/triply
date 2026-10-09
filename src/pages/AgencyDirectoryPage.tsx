@@ -341,10 +341,10 @@ export const AgencyDirectoryPage: React.FC = () => {
           </div>
 
           <Link
-            to="/contact#agency-onboarding"
+            to="/benefits#agency-onboarding"
             className="px-6 py-3.5 rounded-2xl bg-white hover:bg-slate-100 text-slate-900 font-extrabold text-xs sm:text-sm text-center shrink-0 shadow-lg transition-all"
           >
-            Become a Partner ($0 First Year)
+            Become a Partner (₹0 First Year)
           </Link>
         </div>
 

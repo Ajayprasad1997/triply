@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { TravelTimeline } from '../components/TravelTimeline';
+import { AgencyOnboardingForm } from '../components/AgencyOnboardingForm';
 import {
   ShieldCheck,
   CurrencyDollar,
@@ -43,6 +44,7 @@ export const AgencyBenefitsPage: React.FC = () => {
   const annualSavings = traditionalCommission - triiplyCost;
 
   return (
+    
     <div className="min-h-screen bg-slate-50 text-slate-900 pb-20">
       
       {/* Hero Section */}
@@ -78,7 +80,7 @@ export const AgencyBenefitsPage: React.FC = () => {
 
             <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
               <Link
-                to="/contact#agency-onboarding"
+                to="/benefits#agency-onboarding"
                 className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-600 via-sky-600 to-emerald-500 hover:from-blue-700 hover:to-emerald-600 text-white font-black text-sm shadow-xl shadow-sky-500/20 transition-all flex items-center justify-center gap-2"
               >
                 <span>Apply for Partner Onboarding</span>
@@ -95,6 +97,8 @@ export const AgencyBenefitsPage: React.FC = () => {
 
         </div>
       </div>
+
+
 
       {/* 6 Core Value Pillars */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
@@ -317,8 +321,14 @@ export const AgencyBenefitsPage: React.FC = () => {
 
       {/* How It Works */}
       <div className="mt-20">
-        <TravelTimeline onOpenRegister={() => navigate('/contact#agency-onboarding')} />
+        <TravelTimeline onOpenRegister={() => navigate('/benefits#agency-onboarding')} />
       </div>
+
+   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-16 lg:py-24 text-slate-900 relative">
+      
+<AgencyOnboardingForm />
+
+   </div>
 
       {/* Onboarding Call to Action */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-20">
@@ -332,10 +342,10 @@ export const AgencyBenefitsPage: React.FC = () => {
 
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              to="/contact#agency-onboarding"
+              to="/benefits#agency-onboarding"
               className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-white hover:bg-slate-100 text-slate-900 font-black text-sm shadow-xl transition-all"
             >
-              Start Onboarding ($0 First Year)
+              Start Onboarding (₹0 First Year)
             </Link>
             <Link
               to="/login"
@@ -347,6 +357,8 @@ export const AgencyBenefitsPage: React.FC = () => {
         </div>
       </div>
 
+
     </div>
+    
   );
 };

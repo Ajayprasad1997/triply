@@ -1493,7 +1493,7 @@ export const DEFAULT_HOMEPAGE_CONFIG: HomepageConfig = {
     subtitle: 'Founding partners receive lifetime preferential placement, permanent Blue Shield verification status, and ₹0 platform fees.',
     primaryCtaText: 'Claim Founding Partner Access',
     perks: [
-      { id: 'p-1', title: '12 Months $0 Fee Tier', description: 'Zero subscription and 0% lead commissions for early verified partners.' },
+      { id: 'p-1', title: '12 Months ₹0 Fee Tier', description: 'Zero subscription and 0% lead commissions for early verified partners.' },
       { id: 'p-2', title: 'Permanent Founding Badge', description: 'Distinguished gold founding badge on your public storefront forever.' },
       { id: 'p-3', title: 'Homepage Showcase Priority', description: 'Priority rotation in our featured destinations and hero spotlight.' },
       { id: 'p-4', title: 'Dedicated Concierge Onboarding', description: 'Our team formats and uploads your first 5 packages for you.' }

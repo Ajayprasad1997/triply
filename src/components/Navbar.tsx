@@ -71,7 +71,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
           {/* Right Action CTAs */}
           <div className="hidden sm:flex items-center gap-3">
             <Link
-              to="/contact#agency-onboarding"
+              to="/benefits#agency-onboarding"
               className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 via-sky-600 to-sky-500 hover:from-blue-700 hover:to-sky-600 text-white text-xs font-extrabold shadow-md shadow-sky-500/20 hover:shadow-sky-500/30 hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center gap-2"
             >
               <span>Become a Partner</span>
@@ -167,7 +167,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
 
             <div className="pt-2 flex flex-col gap-2">
               <Link
-                to="/contact#agency-onboarding"
+                to="/benefits#agency-onboarding"
                 onClick={() => setMobileMenuOpen(false)}
                 className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-blue-600 via-sky-600 to-sky-500 text-white font-extrabold text-xs text-center shadow-lg transition-all flex items-center justify-center gap-2"
               >

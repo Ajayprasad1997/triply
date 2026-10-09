@@ -298,7 +298,7 @@ export const PhotoLibraryPage: React.FC = () => {
 
             <div className="flex items-center gap-3 shrink-0">
               <Link
-                to="/contact#agency-onboarding"
+                to="/benefits#agency-onboarding"
                 className="px-6 py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs sm:text-sm rounded-xl transition-all shadow-lg flex items-center gap-2"
               >
                 <span>Become a Verified Partner</span>
@@ -370,7 +370,7 @@ export const PhotoLibraryPage: React.FC = () => {
       )}
 
       {/* Footer */}
-      <Footer onOpenRegister={() => navigate('/contact#agency-onboarding')} />
+      <Footer onOpenRegister={() => navigate('/benefits#agency-onboarding')} />
 
     </div>
   );

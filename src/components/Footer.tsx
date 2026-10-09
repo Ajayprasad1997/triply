@@ -34,15 +34,20 @@ export const Footer: React.FC = () => {
             </p>
 
             <div className="flex items-center gap-3 pt-2" aria-label="Triiply social channels coming soon">
-              <span className="p-2 rounded-lg bg-slate-100 border border-slate-200 text-slate-500" title="LinkedIn channel coming soon">
-                <LinkedinLogo size={18} weight="fill" />
-              </span>
-              <span className="p-2 rounded-lg bg-slate-100 border border-slate-200 text-slate-500" title="X channel coming soon">
+             <a href="https://www.linkedin.com/in/triiply-ind" target="_blank"
+  rel="noopener noreferrer"
+  className="p-2 rounded-lg bg-slate-100 border border-slate-200 text-slate-500 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all inline-flex items-center justify-center"
+  title="Visit LinkedIn"
+  aria-label="Visit LinkedIn"
+>
+  <LinkedinLogo size={18} weight="fill" />
+</a>
+              {/* <span className="p-2 rounded-lg bg-slate-100 border border-slate-200 text-slate-500" title="X channel coming soon">
                 <TwitterLogo size={18} weight="fill" />
               </span>
               <span className="p-2 rounded-lg bg-slate-100 border border-slate-200 text-slate-500" title="Instagram channel coming soon">
                 <InstagramLogo size={18} weight="fill" />
-              </span>
+              </span> */}
               <span className="p-2 rounded-lg bg-slate-100 border border-slate-200 text-slate-500" title="Facebook channel coming soon">
                 <FacebookLogo size={18} weight="fill" />
               </span>
@@ -74,10 +79,10 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 font-medium">
               <li><Link to="/about" className="hover:text-blue-600 transition-colors">Corporate Registrations & CIN</Link></li>
               <li><Link to="/about" className="hover:text-blue-600 transition-colors">Registered Offices in India</Link></li>
-              <li><Link to="/contact#agency-onboarding" className="hover:text-blue-600 transition-colors">Blue Shield Verification</Link></li>
+              <li><Link to="/benefits#agency-onboarding" className="hover:text-blue-600 transition-colors">Blue Shield Verification</Link></li>
               <li><Link to="/#faq" className="hover:text-blue-600 transition-colors">Partner FAQs</Link></li>
-              <li><Link to="/contact#agency-onboarding" className="hover:text-blue-600 transition-colors">DMC Onboarding Desk</Link></li>
-              <li><Link to="/contact#agency-onboarding" className="hover:text-blue-600 transition-colors">Founding Partner Perks</Link></li>
+              <li><Link to="/benefits#agency-onboarding" className="hover:text-blue-600 transition-colors">DMC Onboarding Desk</Link></li>
+              <li><Link to="/benefits#agency-onboarding" className="hover:text-blue-600 transition-colors">Founding Partner Perks</Link></li>
             </ul>
           </div>
 

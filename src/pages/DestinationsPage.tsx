@@ -549,7 +549,7 @@ export const DestinationsPage: React.FC<DestinationsPageProps> = ({ discoveryNav
 
           <div className="flex flex-col sm:flex-row items-center gap-4 relative z-10 w-full lg:w-auto">
             <Link
-              to="/contact#agency-onboarding"
+              to="/benefits#agency-onboarding"
               className="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-white hover:bg-slate-100 text-slate-900 font-extrabold text-xs sm:text-sm text-center shadow-lg transition-all"
             >
               List Your DMC on Triiply
