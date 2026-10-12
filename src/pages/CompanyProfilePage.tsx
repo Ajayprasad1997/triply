@@ -410,7 +410,7 @@ export const CompanyProfilePage: React.FC = () => {
          
         <div className="w-full h-full overflow-hidden">
   <img
-    src="/subscription_im.jpeg"
+    src="/subscription_im.png"
     alt="Subscription"
     className="w-full object-cover rounded-xl"
   />
