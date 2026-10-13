@@ -52,19 +52,19 @@ export const Navbar: React.FC<NavbarProps> = () => {
           {/* Nav Links (Desktop) */}
           <nav className="hidden lg:flex items-center gap-6 text-xs font-semibold text-slate-700">
             <Link to="/explore" className="hover:text-blue-600 transition-colors font-bold text-slate-800">
-              Packages &amp; Destinations
+             Getting Started
             </Link>
             <Link to="/agencies" className="hover:text-blue-600 transition-colors font-bold text-slate-800">
-              Agency Directory
+              Find Your Travel Agent
             </Link>
             <Link to="/photo-library" className="hover:text-blue-600 transition-colors font-bold text-slate-800">
-              Photo Library
+              Travel Gallery
             </Link>
             <Link to="/benefits" className="hover:text-blue-600 transition-colors font-bold text-slate-800">
-              Agency Benefits
+              Why Join Triiply?
             </Link>
             <Link to="/about" className="hover:text-blue-600 transition-colors font-bold text-slate-800">
-              Company Profile
+              Discover Triiply
             </Link>
           </nav>
 

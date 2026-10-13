@@ -5,6 +5,7 @@ import { AgencyOnboardingForm } from '../components/AgencyOnboardingForm';
 import {
   ShieldCheck,
   CurrencyDollar,
+  CurrencyInr,
   WhatsappLogo,
   DeviceMobile,
   ChartLineUp,
@@ -117,10 +118,11 @@ export const AgencyBenefitsPage: React.FC = () => {
           {/* Pillar 1 */}
           <div className="bg-white rounded-3xl p-8 border border-slate-200 hover:border-blue-500 hover:shadow-xl transition-all shadow-sm group">
             <div className="w-14 h-14 rounded-2xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-600 mb-6 group-hover:scale-110 transition-transform">
-              <CurrencyDollar size={28} weight="duotone" />
+              {/* <CurrencyDollar size={28} weight="duotone" /> */}
+              <CurrencyInr size={28} weight="duotone" />
             </div>
             <h3 className="font-heading text-xl font-bold text-slate-900 mb-2">
-              0% Platform Commission
+              Very Low Platform Commission
             </h3>
             <p className="text-xs text-slate-600 font-medium leading-relaxed">
               Never surrender 15–25% of your trip margins to aggregators. 100% of all client inquiries and booking payments belong entirely to your agency.
