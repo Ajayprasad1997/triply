@@ -68,9 +68,9 @@ export const AgencyBenefitsPage: React.FC = () => {
             </div>
 
             <h1 className="font-heading text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-tight">
-              Keep 100% of Your Profits.{' '}
+              Keep maximum Profits.{' '}
               <span className="bg-gradient-to-r from-sky-400 via-blue-400 to-emerald-400 bg-clip-text text-transparent">
-                Zero OTA Commission.
+                Low OTA commission.
               </span>
             </h1>
 

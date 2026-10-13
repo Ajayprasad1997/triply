@@ -102,9 +102,9 @@ export const AgencyDirectoryPage: React.FC = () => {
             </div>
 
             <h1 className="font-heading text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
-              Verified Travel Agencies &{' '}
+              Find Trusted &{' '}
               <span className="bg-gradient-to-r from-sky-400 via-blue-400 to-emerald-400 bg-clip-text text-transparent">
-                Ground DMCs Directory
+                Travel Partners
               </span>
             </h1>
 
