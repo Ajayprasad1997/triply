@@ -287,7 +287,7 @@ export const AgencyBenefitsPage: React.FC = () => {
               <tbody className="divide-y divide-slate-100 text-slate-700">
                 <tr>
                   <td className="p-4 sm:p-5 font-bold">Booking Commission</td>
-                  <td className="p-4 sm:p-5 text-emerald-600 font-extrabold bg-blue-50/20">0% Commission</td>
+                  <td className="p-4 sm:p-5 text-emerald-600 font-extrabold bg-blue-50/20">Lowest Commission</td>
                   <td className="p-4 sm:p-5 text-rose-600">15% - 25% Cut</td>
                   <td className="p-4 sm:p-5">0% (Manual Wire)</td>
                 </tr>
