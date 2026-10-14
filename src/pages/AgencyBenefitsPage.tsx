@@ -204,7 +204,7 @@ export const AgencyBenefitsPage: React.FC = () => {
           
           <div className="text-center max-w-2xl mx-auto mb-10">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-400 text-xs font-bold mb-3">
-              <CurrencyDollar size={14} weight="bold" />
+              {/* <CurrencyDollar size={14} weight="bold" /> */}
               <span>Revenue & Profit Retention Calculator</span>
             </div>
             <h3 className="font-heading text-2xl sm:text-4xl font-extrabold text-white">
