@@ -1416,7 +1416,7 @@ export const DEFAULT_HOMEPAGE_CONFIG: HomepageConfig = {
         stepNumber: '04',
         title: 'Receive 100% Direct Leads',
         description: 'Travelers and retail agents discover your packages and connect directly via WhatsApp, Phone, and Email.',
-        highlightBadge: '0% Commission'
+        highlightBadge: 'Low Commission'
       }
     ]
   },
@@ -1542,7 +1542,7 @@ export const DEFAULT_HOMEPAGE_CONFIG: HomepageConfig = {
     headlineGradient: 'High-Conversion Digital Brand?',
     subtitle: 'Join top DMCs and holiday providers worldwide. Publish your first interactive itinerary in minutes.',
     buttonText: 'Get Started with 12 Months Free',
-    guaranteeNote: 'No credit card required • Instant account activation • 0% commission guaranteed'
+    guaranteeNote: 'No credit card required • Instant account activation • Low Commission guaranteed'
   }
 };
 

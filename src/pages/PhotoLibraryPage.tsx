@@ -370,7 +370,7 @@ export const PhotoLibraryPage: React.FC = () => {
       )}
 
       {/* Footer */}
-      <Footer onOpenRegister={() => navigate('/benefits#agency-onboarding')} />
+      {/* <Footer onOpenRegister={() => navigate('/benefits#agency-onboarding')} /> */}
 
     </div>
   );

@@ -22,7 +22,7 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenRegister }) => {
     return () => window.removeEventListener('triiply_homepage_updated', handleUpdate);
   }, []);
 
-  const guarantee = config.guaranteeNote || (config as any).subheadline || 'No credit card required • Instant account activation • 0% commission guaranteed';
+  const guarantee = config.guaranteeNote || (config as any).subheadline || 'No credit card required • Instant account activation • Low commission guaranteed';
   const guaranteeItems = guarantee.split('•').map((s: string) => s.trim()).filter(Boolean);
 
   return (
