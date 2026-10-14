@@ -120,47 +120,48 @@ export const Navbar: React.FC<NavbarProps> = () => {
                 onClick={() => setMobileMenuOpen(false)}
                 className="py-3 px-2 hover:bg-blue-50 hover:text-blue-600 text-blue-600 font-extrabold rounded-xl transition-colors flex items-center justify-between"
               >
-                <span>Packages &amp; Destinations</span>
+                <span>Getting Started</span>
                 <CaretRight size={14} className="text-blue-600" />
-              </Link>
-              <Link
-                to="/photo-library"
-                onClick={() => setMobileMenuOpen(false)}
-                className="py-3 px-2 hover:bg-blue-50 hover:text-blue-600 rounded-xl transition-colors flex items-center justify-between"
-              >
-                <span>Photo Library</span>
-                <CaretRight size={14} className="text-slate-400" />
               </Link>
               <Link
                 to="/agencies"
                 onClick={() => setMobileMenuOpen(false)}
                 className="py-3 px-2 hover:bg-blue-50 hover:text-blue-600 rounded-xl transition-colors flex items-center justify-between"
               >
-                <span>Agency Directory</span>
+                <span>Find Your Travel Agent</span>
                 <CaretRight size={14} className="text-slate-400" />
               </Link>
+              <Link
+                to="/photo-library"
+                onClick={() => setMobileMenuOpen(false)}
+                className="py-3 px-2 hover:bg-blue-50 hover:text-blue-600 rounded-xl transition-colors flex items-center justify-between"
+              >
+                <span>Travel Gallery</span>
+                <CaretRight size={14} className="text-slate-400" />
+              </Link>
+              
               <Link
                 to="/benefits"
                 onClick={() => setMobileMenuOpen(false)}
                 className="py-3 px-2 hover:bg-blue-50 hover:text-blue-600 rounded-xl transition-colors flex items-center justify-between"
               >
-                <span>Agency Benefits</span>
+                <span>Why Join Triiply?</span>
                 <CaretRight size={14} className="text-slate-400" />
               </Link>
-              <Link
+              {/* <Link
                 to="/benefits#how-it-works"
                 onClick={() => setMobileMenuOpen(false)}
                 className="py-3 px-2 hover:bg-blue-50 hover:text-blue-600 rounded-xl transition-colors flex items-center justify-between"
               >
                 <span>How It Works</span>
                 <CaretRight size={14} className="text-slate-400" />
-              </Link>
+              </Link> */}
               <Link
                 to="/about"
                 onClick={() => setMobileMenuOpen(false)}
                 className="py-3 px-2 hover:bg-blue-50 hover:text-blue-600 rounded-xl transition-colors flex items-center justify-between"
               >
-                <span>Company Profile &amp; Contact</span>
+                <span>Discover Triiply</span>
                 <CaretRight size={14} className="text-slate-400" />
               </Link>
             </nav>
