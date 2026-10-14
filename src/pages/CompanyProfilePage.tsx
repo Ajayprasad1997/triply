@@ -145,7 +145,7 @@ export const CompanyProfilePage: React.FC = () => {
 
   const TRUST_PILLARS = [
     {
-      title: '0% Platform Commission',
+      title: 'Very Low Platform Commission',
       desc: 'We never take cuts from your hard-earned booking profits. 100% of traveler leads and inquiries route directly to your verified agency desk.',
       icon: Medal,
       badge: 'Zero Commission'
