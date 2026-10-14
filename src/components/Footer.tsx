@@ -122,7 +122,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Legal Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500 font-medium">
-          <p>© {new Date().getFullYear()} Triiply Technologies Inc. All rights reserved. B2B Travel Partner Acquisition Platform.</p>
+          <p>© {new Date().getFullYear()} Triiply Technologies Inc. All rights reserved. <a href="https://www.slingverse.in/" className="emodev">Developed by Slingverse Technology PVT LTD.</a></p>
           <div className="flex items-center gap-4">
             <Link to="/privacy-policy" className="hover:text-slate-800 transition-colors">Privacy Policy</Link>
             <Link to="/terms-and-conditions" className="hover:text-slate-800 transition-colors">Terms &amp; Conditions</Link>
